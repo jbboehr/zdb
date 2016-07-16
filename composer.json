@@ -1,0 +1,39 @@
+{
+    "authors": [
+        {
+            "email": "jbboehr@gmail.com",
+            "name": "John Boehr"
+        },
+        {
+            "email" : "shwanky@gmail.com",
+            "name" : "Shaun Harding"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "zdb\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "zdb\\Test\\": "tests/"
+        }
+    },
+    "description": "",
+    "homepage": "http://github.com/jbboehr/zdb",
+    "name": "jbboehr/zdb",
+    "keywords": [
+        "db",
+        "mysql"
+    ],
+    "license": "BSD-2-Clause",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8.26",
+        "psr/log": "~1.0",
+        "satooshi/php-coveralls": "~1.0.0"
+    },
+    "type": "library"
+}
