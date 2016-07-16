@@ -2,7 +2,7 @@
 DROP DATABASE IF EXISTS `zdb`;
 CREATE DATABASE IF NOT EXISTS `zdb`;
 
-DROP USER IF EXISTS 'zdb'@'localhost';
+-- DROP USER IF EXISTS 'zdb'@'localhost';
 
 CREATE USER 'zdb'@'localhost' IDENTIFIED BY 'zdb';
 GRANT USAGE ON *.* TO 'zdb'@'localhost';
